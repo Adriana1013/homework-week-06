@@ -1,11 +1,22 @@
-.displayOne {
-  text-align: center;    
+h1 {
+  text-align: center;
+  background-color: lightskyblue;
+  color: aliceblue;
+  margin: 25px;    
 }
 
 .row {
   display: flex;    
 }
 
+#weather{
+text-align: right;
+}
+
 .btn {
   border: 2px solid pink;
+}
+
+.weather {
+  align-content: right;    
 }

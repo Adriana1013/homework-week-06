@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css"/>
     <title>Weather Dashbard 2022</title>
-    <link rel="stlyesheet" type="text/css" href="style.css" />
+    
   </head>
 
 <body>
-  <nav class="displayOne">
+  
     <h1>Weather Dashboard</h1>
-  </nav>
+  
   
   <section class="container">
     <div class="row">
@@ -26,11 +27,18 @@
           <ul id="cities"></ul>
       </div>
 
-      <!-- <div class="col-12 col-md-9 col-lg-7">
-        One column
-      </div> -->
+      <div id="weather">
+        <h2>Temp</h2>
+        <a id="degrees"></a>
+        <h2>Wind</h2>
+        <a id="miles"></a>
+        <h2>Humidity</h2>
+        <a id="percent"></a>
+      </div>
     </div>
 
+    <div id="showHistory"></div>
+    
   <script src="./script.js"></script>
 </body>
 </html>
