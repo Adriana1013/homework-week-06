@@ -1,0 +1,11 @@
+.displayOne {
+  text-align: center;    
+}
+
+.row {
+  display: flex;    
+}
+
+.btn {
+  border: 2px solid pink;
+}

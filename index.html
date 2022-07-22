@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Weather Dashbard 2022</title>
+    <link rel="stlyesheet" type="text/css" href="style.css" />
+  </head>
+
+<body>
+  <nav class="displayOne">
+    <h1>Weather Dashboard</h1>
+  </nav>
+  
+  <section class="container">
+    <div class="row">
+      <div class="col-12 col-md-3 col-lg-5 ">
+        <h3>Search For A City:</h3>
+          <label for="city">City</label>
+          <br>
+          </br>
+          <textarea id="citySearch" name="city" type="search" placeholder="Los Angeles"></textarea>
+          <button id="searchButton">Search</button>
+          <p><span id="previouslySavedCityList"></span></p>
+          <ul id="cities"></ul>
+      </div>
+
+      <!-- <div class="col-12 col-md-9 col-lg-7">
+        One column
+      </div> -->
+    </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
